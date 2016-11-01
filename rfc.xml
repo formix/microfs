@@ -110,11 +110,10 @@
 
     <abstract>
         <t>This specification defines a file system format that is
-        easily implementable for embeded devices with little memory and
-        storage capacity. The file system index is a list of files 
-        attributes and names. It can be leveraged on top of another file 
-        system to handle multiple small files more efficiently than other
-        existing file systems.</t>
+        easily implementable for embeded devices having little memory, 
+        storage capacity, and computing power. The format is designed
+        to leverage solid state storage's random access speed.
+        </t>
     </abstract>
   </front>
 
@@ -135,8 +134,9 @@
         <t>The purpose of this specification is to define a file system
         that:</t>
         <t><list style="symbols">
-          <t>Is independent of CPU type, operating system, file system,
-          and character set.</t>
+          <t>Is independent of CPU type, operating system, and 
+          character set.</t>
+          
           <t></t>
         </list></t>
       </section>
